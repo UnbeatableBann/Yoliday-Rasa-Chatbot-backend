@@ -6,5 +6,7 @@ COPY . /app
 USER root
 RUN pip install --no-cache-dir -r requirements.txt
 
-# runs both rasa and actions
-CMD rasa run --enable-api --cors "*" --port $PORT & rasa run actions --port $PORT
+COPY start.sh /app/start.sh
+RUN chmod +x /app/start.sh
+
+CMD ["./start.sh"]
