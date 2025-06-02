@@ -1,0 +1,9 @@
+{
+  "0": "ask_weather",
+  "1": "fallback",
+  "2": "faq",
+  "3": "goodbye",
+  "4": "greet",
+  "5": "provide_travel_info",
+  "6": "recommend_packing"
+}

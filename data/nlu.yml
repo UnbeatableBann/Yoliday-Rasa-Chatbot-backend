@@ -1,0 +1,100 @@
+version: "3.1"
+nlu:
+- intent: greet
+  examples: |
+    - hi
+    - hello
+    - good morning
+    - how are you 
+    - hey
+    - what's up
+    - all good?
+
+- intent: goodbye
+  examples: |
+    - bye
+    - see you later
+    - goodbye
+    - catch you later
+    - talk to you later
+    - have a nice day
+    - take care
+    - see you soon
+
+- intent: ask_weather
+  examples: |
+    - what's the weather in [Pune](location)?
+    - what's the weather in [Goa](location)?
+    - weather in [Delhi](location)
+    - how's the weather in [Manali](location)?
+    - weather forecast for [Kerala](location)
+    - what's the weather like in [Mumbai](location)?
+    - tell me the weather in [Bangalore](location)
+    - how's the weather in [Chennai](location)?
+    - what's the weather in [Hyderabad](location)?
+    - weather in [Jaipur](location)
+    - how's the weather in [Kolkata](location)?
+    - what's the weather in [Agra](location)?
+    - weather forecast for [Ahmedabad](location)
+
+- intent: recommend_packing
+  examples: |
+    - what should I pack for [Manali](location)?
+    - packing advice for [Kerala](location)
+    - what to take for [Goa](location)?
+    - packing tips for [Pune](location)
+    - what should I bring to [Delhi](location)?
+    - what to pack for [Mumbai](location)?
+    - packing list for [Bangalore](location)
+    - what should I carry for [Chennai](location)?
+    - what to take for [Hyderabad](location)?
+    - packing essentials for [Jaipur](location)
+    - what should I pack for [Kolkata](location)?
+    - packing tips for [Agra](location)
+    - what to bring for [Ahmedabad](location)?
+
+- intent: faq_what_is_rasa
+  examples: |
+    - What is Rasa?
+    - Tell me about Rasa
+    - Explain Rasa
+    - What does Rasa do?
+    - What is the purpose of Rasa?
+
+- intent: faq_how_plan_trip
+  examples: |
+    - How do I plan a trip?
+    - I want to plan my trip
+    - Guide me on trip planning
+    - How can I plan a trip?
+    - What are the steps to plan a trip?
+    - How to plan a trip?
+
+- intent: faq_who_built_you
+  examples: |
+    - Who built you?
+    - Who created you?
+    - Who made you?
+    - Who is your creator?
+    - Who developed you?
+    - Who is behind you?
+
+
+- intent: fallback
+  examples: |
+    - ksdjflksdjf
+    - blabla
+    - jfn
+    - hrein
+    - asdfasdf
+    - what is this?
+    - I don't understand
+
+- intent: provide_travel_info
+  examples: |
+    - I want to go to [Goa](location) from [June 10](start_date) to [June 15](end_date)
+    - [Manali](location) trip from [May 1](start_date) to [May 5](end_date)
+    - I need travel info for [Pune](location) from [July 20](start_date) to [July 25](end_date)
+    - Help me plan a trip to [Delhi](location) from [August 5](start_date) to [August 10](end_date)
+    - I want to visit [Mumbai](location) from [September 15](start_date) to [September 20](end_date)
+    - Plan a trip to [Bangalore](location) from [October 1](start_date) to [October 5](end_date)
