@@ -1,2 +1,2 @@
 action_endpoint:
-  url: "https://Yoliday-Rasa-Chatbot-backend.onrender.com/webhook"
+  url: "https://yoliday-actions.onrender.com/webhook"
