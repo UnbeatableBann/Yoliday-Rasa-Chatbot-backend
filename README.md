@@ -10,7 +10,7 @@ Welcome to the Yoliday Travel Assistant Bot! This project was built using the Ra
 
 ```bash
 git clone https://github.com/UnbeatableBann/Yoliday-Rasa-Chatbot-backend.git
-cd yoliday-travel-assistant
+cd Yoliday-Rasa-Chatbot-backend
 ```
 
 ### 2. Create a Virtual Environment
