@@ -1,3 +1,3 @@
 #!/bin/bash
-rasa run actions --port 5055 &
-rasa run --enable-api --cors "*" --port $PORT
+rasa run actions --port 5055 --debug &
+rasa run --enable-api --cors "*" --port $PORT --debug
